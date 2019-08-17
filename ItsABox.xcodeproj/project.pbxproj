@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		DE5D3C6D61DF7A1D266DECC9 /* Pods_ItsABox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC6438A3FB11D655C102A98F /* Pods_ItsABox.framework */; };
 		E432F7DA2302F933002656FA /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = E432F7D92302F933002656FA /* Podfile */; };
+		E44D63E7230469FA00FA3FB7 /* GridMaterial.swift in Sources */ = {isa = PBXBuildFile; fileRef = E44D63E6230469FA00FA3FB7 /* GridMaterial.swift */; };
 		E486EA2722AAF2340094831F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E486EA2622AAF2340094831F /* AppDelegate.swift */; };
 		E486EA2922AAF2340094831F /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = E486EA2822AAF2340094831F /* art.scnassets */; };
 		E486EA2B22AAF2340094831F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E486EA2A22AAF2340094831F /* ViewController.swift */; };
@@ -19,6 +20,8 @@
 		E486EA4922AAF2390094831F /* ItsABoxUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E486EA4822AAF2390094831F /* ItsABoxUITests.swift */; };
 		E4902B3F2303002100838E7A /* DataStructures.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4902B3E2303002100838E7A /* DataStructures.swift */; };
 		E4902B412303004500838E7A /* ModelProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4902B402303004500838E7A /* ModelProtocol.swift */; };
+		E4902B462303E88400838E7A /* ARSceneManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4902B452303E88400838E7A /* ARSceneManager.swift */; };
+		E4902B492304115300838E7A /* Plane.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4902B482304115300838E7A /* Plane.swift */; };
 		E49F65F322AAF2DE008D59FA /* FileConcealer.c in Sources */ = {isa = PBXBuildFile; fileRef = E49F65F222AAF2DE008D59FA /* FileConcealer.c */; };
 		EC3DD289BC4741DB9D708FC9 /* Pods_ItsABoxTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 651BAA8FF690723FA7DADB0B /* Pods_ItsABoxTests.framework */; };
 /* End PBXBuildFile section */
@@ -48,6 +51,7 @@
 		9DEBB38D0D7A8D48B11E1C43 /* Pods-ItsABox.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ItsABox.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ItsABox/Pods-ItsABox.debug.xcconfig"; sourceTree = "<group>"; };
 		DC6438A3FB11D655C102A98F /* Pods_ItsABox.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ItsABox.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E432F7D92302F933002656FA /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		E44D63E6230469FA00FA3FB7 /* GridMaterial.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridMaterial.swift; sourceTree = "<group>"; };
 		E486EA2322AAF2340094831F /* ItsABox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ItsABox.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E486EA2622AAF2340094831F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E486EA2822AAF2340094831F /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
@@ -65,6 +69,8 @@
 		E4902B3E2303002100838E7A /* DataStructures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataStructures.swift; sourceTree = "<group>"; };
 		E4902B402303004500838E7A /* ModelProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelProtocol.swift; sourceTree = "<group>"; };
 		E4902B4223030AA900838E7A /* ItsABox.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ItsABox.entitlements; sourceTree = "<group>"; };
+		E4902B452303E88400838E7A /* ARSceneManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARSceneManager.swift; sourceTree = "<group>"; };
+		E4902B482304115300838E7A /* Plane.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Plane.swift; sourceTree = "<group>"; };
 		E49F65F022AAF2DE008D59FA /* ItsABox-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ItsABox-Bridging-Header.h"; sourceTree = "<group>"; };
 		E49F65F122AAF2DE008D59FA /* FileConcealer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FileConcealer.h; sourceTree = "<group>"; };
 		E49F65F222AAF2DE008D59FA /* FileConcealer.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = FileConcealer.c; sourceTree = "<group>"; };
@@ -188,6 +194,8 @@
 		E4902B432303135500838E7A /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				E4902B47230410E300838E7A /* Planes */,
+				E4902B452303E88400838E7A /* ARSceneManager.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -198,6 +206,15 @@
 				E486EA2A22AAF2340094831F /* ViewController.swift */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		E4902B47230410E300838E7A /* Planes */ = {
+			isa = PBXGroup;
+			children = (
+				E4902B482304115300838E7A /* Plane.swift */,
+				E44D63E6230469FA00FA3FB7 /* GridMaterial.swift */,
+			);
+			path = Planes;
 			sourceTree = "<group>";
 		};
 		E49F65EF22AAF284008D59FA /* Model */ = {
@@ -433,9 +450,12 @@
 			files = (
 				E486EA2B22AAF2340094831F /* ViewController.swift in Sources */,
 				E4902B3F2303002100838E7A /* DataStructures.swift in Sources */,
+				E44D63E7230469FA00FA3FB7 /* GridMaterial.swift in Sources */,
 				E4902B412303004500838E7A /* ModelProtocol.swift in Sources */,
+				E4902B462303E88400838E7A /* ARSceneManager.swift in Sources */,
 				E486EA2722AAF2340094831F /* AppDelegate.swift in Sources */,
 				E49F65F322AAF2DE008D59FA /* FileConcealer.c in Sources */,
+				E4902B492304115300838E7A /* Plane.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
