@@ -50,7 +50,7 @@
 		651BAA8FF690723FA7DADB0B /* Pods_ItsABoxTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ItsABoxTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9DEBB38D0D7A8D48B11E1C43 /* Pods-ItsABox.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ItsABox.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ItsABox/Pods-ItsABox.debug.xcconfig"; sourceTree = "<group>"; };
 		DC6438A3FB11D655C102A98F /* Pods_ItsABox.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ItsABox.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E432F7D92302F933002656FA /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		E432F7D92302F933002656FA /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		E44D63E6230469FA00FA3FB7 /* GridMaterial.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridMaterial.swift; sourceTree = "<group>"; };
 		E486EA2322AAF2340094831F /* ItsABox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ItsABox.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E486EA2622AAF2340094831F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -637,6 +637,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = ENT89NLKC9;
 				INFOPLIST_FILE = ItsABox/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -661,6 +662,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = ENT89NLKC9;
 				INFOPLIST_FILE = ItsABox/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
